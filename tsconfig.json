@@ -25,8 +25,17 @@
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "./src/*"
-      ]
+        "./src/*",
+      ],
+      "@utils": [
+        "./src/lib/utils.ts"
+      ],
+      "@components": [
+        "./src/components/*"
+      ],
+      "@pages": [
+        "./src/pages/*"
+      ],
     }
   },
   "include": ["src"],
